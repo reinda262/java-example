@@ -4,5 +4,9 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(array[array.length-i-1]);
+        }
     }
 }
